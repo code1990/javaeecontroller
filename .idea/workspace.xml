@@ -5,28 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97bc6235-e881-4a07-82a4-200c614f4995" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/SpringAnnotation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/ComponentScanAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/ConditionalAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/ConfigurationAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/FactoryBeanAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/FactoryBeanEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/ImportAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/ImportEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/LazyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/LinuxCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/MyImportBeanDefinitionRegistrar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/MyImportSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/MyTypeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/ScopeAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/WindowsCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/test/java/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/BeanAnnotationLifeCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/InitializingBeanDisposableBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/LifeCycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/MyBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/PostConstructPreDestroy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringAnnotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAnnotation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,25 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ConfigurationAnnotation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/ConfigurationAnnotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FactoryBeanAnnotation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FactoryBeanAnnotation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/FactoryBeanAnnotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="12" column="36" lean-forward="true" selection-start-line="11" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="61">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#362#363#0" expanded="true" />
@@ -80,13 +51,92 @@
       <file leaf-file-name="FactoryBeanEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/FactoryBeanEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="226">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
                 <element signature="e#408#409#0" expanded="true" />
                 <element signature="e#435#436#0" expanded="true" />
                 <element signature="e#485#486#0" expanded="true" />
                 <element signature="e#513#514#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/resources/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeanAnnotationLifeCycle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/BeanAnnotationLifeCycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="26" column="28" selection-start-line="26" selection-end-line="36" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LifeCycleTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/LifeCycleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostConstructPreDestroy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/PostConstructPreDestroy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyBeanPostProcessor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/MyBeanPostProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="16" />
+              <folding>
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,74 +161,6 @@
               <caret line="96" column="65" selection-start-line="96" selection-start-column="61" selection-end-line="96" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyImportSelector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/MyImportSelector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="11" column="12" selection-start-line="11" selection-end-line="24" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyImportBeanDefinitionRegistrar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/MyImportBeanDefinitionRegistrar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-              <folding>
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImportEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/ImportEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConditionalAnnotation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/ConditionalAnnotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,7 +192,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/SpringAnnotation/src/test/java/MainTest.java" />
         <option value="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/Person.java" />
-        <option value="$PROJECT_DIR$/SpringAnnotation/src/main/resources/beans.xml" />
         <option value="$PROJECT_DIR$/SpringAnnotation/pom.xml" />
         <option value="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/PersonConfig.java" />
         <option value="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/ConfigurationAnnotation.java" />
@@ -228,6 +209,13 @@
         <option value="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/ImportEntity.java" />
         <option value="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/PersonTest.java" />
         <option value="$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/FactoryBeanAnnotation.java" />
+        <option value="$PROJECT_DIR$/SpringAnnotation/src/main/resources/beans.xml" />
+        <option value="$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/Car.java" />
+        <option value="$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/InitializingDisposableBean.java" />
+        <option value="$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/BeanAnnotationLifeCycle.java" />
+        <option value="$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/InitializingBeanDisposableBean.java" />
+        <option value="$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/LifeCycleTest.java" />
+        <option value="$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/PostConstructPreDestroy.java" />
       </list>
     </option>
   </component>
@@ -253,7 +241,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="250" />
     <option name="y" value="337" />
     <option name="width" value="1296" />
@@ -306,7 +294,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="part00componetregister" type="462c0819:PsiDirectoryNode" />
+              <item name="part01lifecycle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaeecontroller" type="b2602c69:ProjectViewProjectNode" />
@@ -354,23 +342,69 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.testFactoryBean">
+  <component name="RunManager" selected="JUnit.LifeCycleTest.testPostConstructPreDestroy">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="PersonTest.testConditionalAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LifeCycleTest.testBeanAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringAnnotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part00componetregister.*" />
+          <option name="PATTERN" value="part01lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="part00componetregister" />
-      <option name="MAIN_CLASS_NAME" value="part00componetregister.PersonTest" />
-      <option name="METHOD_NAME" value="testConditionalAnnotation" />
+      <option name="PACKAGE_NAME" value="part01lifecycle" />
+      <option name="MAIN_CLASS_NAME" value="part01lifecycle.LifeCycleTest" />
+      <option name="METHOD_NAME" value="testBeanAnnotation" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LifeCycleTest.testInitializingDisposableBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringAnnotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part01lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="part01lifecycle" />
+      <option name="MAIN_CLASS_NAME" value="part01lifecycle.LifeCycleTest" />
+      <option name="METHOD_NAME" value="testInitializingDisposableBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LifeCycleTest.testPostConstructPreDestroy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringAnnotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part01lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="part01lifecycle" />
+      <option name="MAIN_CLASS_NAME" value="part01lifecycle.LifeCycleTest" />
+      <option name="METHOD_NAME" value="testPostConstructPreDestroy" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -427,52 +461,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PersonTest.testLazyAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringAnnotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="part00componetregister.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="part00componetregister" />
-      <option name="MAIN_CLASS_NAME" value="part00componetregister.PersonTest" />
-      <option name="METHOD_NAME" value="testLazyAnnotation" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PersonTest.testScopeAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringAnnotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="part00componetregister.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="part00componetregister" />
-      <option name="MAIN_CLASS_NAME" value="part00componetregister.PersonTest" />
-      <option name="METHOD_NAME" value="testScopeAnnotation" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -512,19 +500,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PersonTest.testScopeAnnotation" />
-      <item itemvalue="JUnit.PersonTest.testLazyAnnotation" />
-      <item itemvalue="JUnit.PersonTest.testConditionalAnnotation" />
       <item itemvalue="JUnit.PersonTest.testImport" />
       <item itemvalue="JUnit.PersonTest.testFactoryBean" />
+      <item itemvalue="JUnit.LifeCycleTest.testBeanAnnotation" />
+      <item itemvalue="JUnit.LifeCycleTest.testInitializingDisposableBean" />
+      <item itemvalue="JUnit.LifeCycleTest.testPostConstructPreDestroy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LifeCycleTest.testPostConstructPreDestroy" />
+        <item itemvalue="JUnit.LifeCycleTest.testInitializingDisposableBean" />
+        <item itemvalue="JUnit.LifeCycleTest.testBeanAnnotation" />
         <item itemvalue="JUnit.PersonTest.testFactoryBean" />
         <item itemvalue="JUnit.PersonTest.testImport" />
-        <item itemvalue="JUnit.PersonTest.testConditionalAnnotation" />
-        <item itemvalue="JUnit.PersonTest.testLazyAnnotation" />
-        <item itemvalue="JUnit.PersonTest.testScopeAnnotation" />
       </list>
     </recent_temporary>
   </component>
@@ -546,20 +534,11 @@
       <option name="presentableId" value="Default" />
       <updated>1570346230475</updated>
       <workItem from="1570346238724" duration="1297000" />
-      <workItem from="1570349393900" duration="11650000" />
+      <workItem from="1570349393900" duration="15495000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonTest_testConditionalAnnotation - 2019.10.06 at 18h 00m 58s.xml">
-      <configuration name="PersonTest.testConditionalAnnotation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest_testConditionalAnnotation - 2019.10.06 at 18h 04m 01s.xml">
-      <configuration name="PersonTest.testConditionalAnnotation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest_testConditionalAnnotation - 2019.10.06 at 18h 04m 46s.xml">
-      <configuration name="PersonTest.testConditionalAnnotation" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PersonTest_testConditionalAnnotation - 2019.10.06 at 18h 05m 39s.xml">
       <configuration name="PersonTest.testConditionalAnnotation" configurationId="JUnit" />
     </history-entry>
@@ -581,12 +560,21 @@
     <history-entry file="PersonTest_testFactoryBean - 2019.10.06 at 21h 16m 18s.xml">
       <configuration name="PersonTest.testFactoryBean" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LifeCycleTest_testBeanAnnotation - 2019.10.06 at 21h 36m 37s.xml">
+      <configuration name="LifeCycleTest.testBeanAnnotation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LifeCycleTest_testInitializingDisposableBean - 2019.10.06 at 22h 13m 00s.xml">
+      <configuration name="LifeCycleTest.testInitializingDisposableBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LifeCycleTest_testPostConstructPreDestroy - 2019.10.06 at 22h 24m 38s.xml">
+      <configuration name="LifeCycleTest.testPostConstructPreDestroy" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12947000" />
+    <option name="totallyTimeSpent" value="16792000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -597,11 +585,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13461539" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4232026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2998366" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
       <window_info anchor="bottom" id="Tail" order="7" />
       <window_info anchor="right" id="Database" order="3" />
@@ -729,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
@@ -820,16 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/ImportAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="11" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/ConfigurationAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -838,19 +809,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#321#322#0" expanded="true" />
             <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/FactoryBeanEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -908,13 +866,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/FactoryBeanAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="11" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="61">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#362#363#0" expanded="true" />
             <element signature="e#407#408#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/ImportAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="11" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part00componetregister/FactoryBeanEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/BeanAnnotationLifeCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="26" column="28" selection-start-line="26" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/InitializingBeanDisposableBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/LifeCycleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/PostConstructPreDestroy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAnnotation/src/main/java/part01lifecycle/MyBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
